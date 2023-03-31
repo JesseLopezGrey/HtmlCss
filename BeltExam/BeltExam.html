@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./BeltExam.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="nav">
+          <div class="top-nav">
+            <div class="easy-bay">
+              <img class="easybay-img" src="./images/leaf.png" alt="leaf" />
+              <h1>EasyBay</h1>
+            </div>
+            <form class="form-search">
+              <input type="search" placeholder="Search for anything" />
+              <button type="submit" class="search-button">
+                <img src="./images/search-dark.png" />
+              </button>
+            </form>
+            <h3>Sign In</h3>
+            <img
+              class="cart-img"
+              src="./images/cart-dark.png"
+              alt="cart"
+              onclick="clickCart(this)"
+            />
+          </div>
+          <div class="bot-nav">
+            <ul>
+              <li>Aeonium</li>
+              <li>Andormischus</li>
+              <li>Agava</li>
+              <li>Aloe</li>
+              <li>Anacamserps</li>
+              <li>Aristaloe</li>
+              <li>More...</li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="top-content">
+            <p>Your Source for Serious Succulent Specialties</p>
+          </div>
+          <div class="mid-content">
+            <div class="first-box">
+              <div class="inside-box1A">
+                <p class="top-p">
+                  Discover succ-ulent varieties one pot or rack
+                </p>
+                <p>at a time!</p>
+                <p class="bot-p">
+                  Discover <img src="./images/arrow-light.png" alt="arrow" />
+                </p>
+              </div>
+              <img
+                class="inside-box1B"
+                src="./images/succulents-1.jpg"
+                alt="box1"
+                id="fav-pic"
+                onmouseleave="newPicture1()"
+                onmouseover="newPicture2()"
+              />
+              <div class="secound-box">
+                <img class="aloe-img" src="./images/aloe-m.jpg" alt="aloe" />
+                <p class="soothing-box">
+                  Soothing aloe
+                  <img
+                    class="aloe-img"
+                    src="./images/arrow-light.png"
+                    alt="arrow"
+                  />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bot-content">
+            <div class="card">
+              <div class="center">
+                <img src="./images/aeonium-s.jpg" alt="Aeonium" />
+                <p>Aeonium</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="center">
+                <img src="./images/aloe-s.jpg" alt="Aeonium" />
+                <p>Aeonium</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="center">
+                <img src="./images/cactus-s.jpg" alt="Aeonium" />
+                <p>Aeonium</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="center">
+                <img src="./images/echeveria-s.jpg" alt="Aeonium" />
+                <p>Aeonium</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="center">
+                <img src="./images/sedum-s.jpg" alt="Aeonium" />
+                <p>Aeonium</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="center">
+                <img src="./images/sempervivum-s.jpg" alt="Aeonium" />
+                <p>Aeonium</p>
+              </div>
+            </div>
+          </div>
+          <div class="cookie" id="cookie">
+            <img src="./images/alert-dark.png" alt="cookie" />
+            <div class="p-tag">
+              <p>
+                This site makes use of third-party cookies, "I accept" you agree
+                to the
+              </p>
+              <p>terms outlined in our <a href="#">cookie policy</a></p>
+            </div>
+            <button class="cookie-button" onclick="removecookie(this)">
+              I Accept
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./BeltExam.js"></script>
+  </body>
+</html>

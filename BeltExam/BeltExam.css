@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 970px;
+}
+
+/*----------Nav Bar--------------------*/
+.nav{
+    vertical-align: top;
+}
+
+.top-nav{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.easy-bay{
+    display: flex;
+}
+
+.easy-bay img{
+    height: 35px;
+    width: 35px;
+    background-color: turquoise;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.form-search input{
+    height: 25px;
+    width: 650px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: lightgrey;
+    padding-left: 15px;
+}
+
+.cart-img{
+    height: 35px;
+    width: 35px; 
+}
+.bot-nav{
+    margin: 10px 0px;
+}
+.bot-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot-nav li{
+    list-style-type: none;  
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+  
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-bottom: -5px;
+}
+
+  /*------------main content-------------*/
+
+.main-content{
+    border-top: solid black 2px;
+}
+
+.top-content{ 
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 40px;
+}
+
+.mid-content{
+    display: flex;
+    margin-bottom: 15px; 
+}
+
+.first-box{
+    display: flex;
+}
+
+.inside-box1A{
+    flex: 1;
+    word-wrap: normal;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    background-color: turquoise;
+}
+
+.top-p{
+    padding: 40px 40px 0px 40px;
+}
+
+.bot-p{
+    padding: 40px;
+}
+
+.inside-box1A img{
+    height: 35px;
+    width: 35px; 
+}
+
+.inside-box1B{
+    flex: 1;
+}
+
+.flex{
+    flex: 1;
+}
+
+.secound-box{
+    margin-left: 20px;
+}
+
+/* .aloe-img{
+   height: 175px;
+  
+} */
+
+.soothing-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: turquoise;
+    color: white;
+}
+
+/*---------bot content------------*/
+
+.bot-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    height: 250px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+}
+
+.card img{
+    border-radius: 50%;
+    height: 140px;
+    
+}
+
+.card p{
+    margin-top: 20px;
+}
+/*------------cookie box--------------*/
+
+.cookie{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 10px;
+    bottom: 40px;
+    height: 50px;
+    width: 970px;
+    border: solid black 2px;
+    background-color: white;
+    padding: 20px 0px;
+    font-size: 20px; 
+}
+
+.cookie-button{
+    border: solid black 2px;
+    background-color: turquoise;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
